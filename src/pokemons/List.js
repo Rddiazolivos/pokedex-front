@@ -21,7 +21,7 @@ const List = () => {
    return (
 
     <ImageList sx={{ m: 10 }} >
-      <ImageListItem key="Subheader" cols={2} rowHeight={164}>
+      <ImageListItem key="Subheader" cols={2} >
         <ListSubheader component="div">Pokemons</ListSubheader>
       </ImageListItem>
       {data.data.pokemons.map((item) => (
